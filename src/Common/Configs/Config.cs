@@ -11,7 +11,7 @@ namespace CodeEfficiencyBenchmark.Configs
     {
         public static readonly IConfig FxInstance = new Config(ClrRuntime.Net48);
 
-        public static readonly IConfig CoreInstance = new Config(CoreRuntime.Core60);
+        public static readonly IConfig CoreInstance = new Config(CoreRuntime.Core90);
 
         public Config(Runtime runtime)
         {
