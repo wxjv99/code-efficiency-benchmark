@@ -51,7 +51,7 @@ using CodeEfficiencyBenchmark.Common.Types;
 using JsonConvert = Newtonsoft.Json.JsonConvert;
 using JsonSerializer = System.Text.Json.JsonSerializer;
 
-namespace CodeEfficiencyBenchmark.NetCore.Benchmarks.JsonConversion
+namespace CodeEfficiencyBenchmark.Benchmarks
 {
     public class JsonDeserialize
     {
