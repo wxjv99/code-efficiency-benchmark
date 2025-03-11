@@ -9,7 +9,7 @@ namespace CodeEfficiencyBenchmark.Configs
 {
     public class Config : ManualConfig
     {
-        public static readonly IConfig FxInstance = new Config(ClrRuntime.Net461);
+        public static readonly IConfig FxInstance = new Config(ClrRuntime.Net48);
 
         public static readonly IConfig CoreInstance = new Config(CoreRuntime.Core60);
 
